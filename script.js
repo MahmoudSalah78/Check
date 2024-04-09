@@ -2,13 +2,13 @@ let title = document.querySelector('.title');
 let list = document.querySelector('ul');
 let btn = document.querySelector('.btn');
 
-// window.onload = function(){
-//     if(window.navigator.onLine){
-//         online();
-//     }else{
-//         offline();
-//     }
-// }
+window.onload = function(){
+    if(window.navigator.onLine){
+        online();
+    }else{
+        offline();
+    }
+}
 
 window.addEventListener('online', function(){
     online()
