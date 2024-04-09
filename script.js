@@ -16,7 +16,9 @@ window.addEventListener('online', function(){
 window.addEventListener('offline', function(){
     offline()
 });
-
+btn.onclick = function(){
+    window.location.reload()
+}
 function online(){
     title.innerHTML = 'Online Now';
     title.style.color = 'green';
@@ -28,7 +30,4 @@ function offline(){
     title.style.color = 'black';
     list.classList.remove('hide');
     btn.classList.remove('hide');
-}
-btn.onclick = function(){
-    window.location.reload()
 }
