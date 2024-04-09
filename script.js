@@ -30,5 +30,5 @@ function offline(){
     btn.classList.remove('hide');
 }
 btn.onclick = function(){
-    window.onload()
+    window.location.reload()
 }
