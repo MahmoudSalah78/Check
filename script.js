@@ -29,3 +29,6 @@ function offline(){
     list.classList.remove('hide');
     btn.classList.remove('hide');
 }
+btn.onclick = function(){
+    window.onload()
+}
