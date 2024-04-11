@@ -31,8 +31,3 @@ ul{
 .hide{
     display: none;
 }
-@media (max-width:450px){
-    .title , ul , .btn{
-        font-size: 45px;
-    }
-}
