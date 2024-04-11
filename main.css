@@ -31,3 +31,11 @@ ul{
 .hide{
     display: none;
 }
+@media only screen and (max-width: 450px) {
+    body {
+        flex-direction: column;
+    }
+    ul {
+        left: 0;
+    }
+}
